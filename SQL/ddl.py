@@ -1,0 +1,22 @@
+AGRECORD_DDL = """
+CREATE TABLE AgRecords (
+    GROWER VARCHAR(512),
+    [Feed Type] VARCHAR(512),
+    FIELD INT,
+    VARIETY VARCHAR(512),
+    [PLANT D] VARCHAR(512),
+    DL INT,
+    ACRES INT,
+    [HARVEST D] VARCHAR(512),
+    [Harvested Tons] VARCHAR(512),
+    [DM] VARCHAR(512),
+    [Tons at 32%] DOUBLE,
+    [Tons/acre] DOUBLE,
+    [PLANT SIZE] VARCHAR(512),
+    [TOTAL# KERNELS] VARCHAR(512),
+    [MILK/TON] VARCHAR(512),
+    STARCH	VARCHAR(512),
+    ADF	DOUBLE,
+    NDF	VARCHAR(512)
+);
+"""
